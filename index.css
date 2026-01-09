@@ -1,0 +1,46 @@
+body{
+            background-color: peachpuff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    .box{
+        height: 500px;
+        width: 500px;
+        margin-left: 500px;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+    label{
+        display: inline-block;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="file"],
+    input[type="date"],
+    select,
+    textarea{
+        width: 70%;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+   #firstname{
+    width: 170px;
+
+   }
+   #lastname{
+    width: 170px;
+   }
+   input[type="lastname"],
+   select,
+   lastname{
+    width: 70px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   }

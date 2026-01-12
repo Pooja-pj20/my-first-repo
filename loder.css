@@ -1,0 +1,17 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 20px solid yellowgreen;
+    border-top: 20px solid rgb(6, 73, 2); 
+    animation:spinAnimation 2s ease-in 1s infinite normal;
+
+}
+@keyframes spinAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
